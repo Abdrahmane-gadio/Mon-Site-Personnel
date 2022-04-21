@@ -1,0 +1,481 @@
+
+h5{
+    font-family: 'Shadows Into Light', cursive;
+}
+.contain > p{
+    font-family: 'Dancing Script', cursive;
+}
+.facebook:hover{
+    background-color: rgb(100, 100, 197);
+}
+.linkedin:hover{
+    background-color: rgba(60, 60, 192, 0.87);
+}
+.instagram:hover,.google:hover{
+    background-color: rgb(243, 99, 99);
+}
+.twitter:hover{
+    background-color: rgba(67, 160, 236, 0.87);
+}
+.facebook>li>a{
+    color: white;
+}
+
+*{
+    font-size: 20px;
+
+}
+.Parent1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    height: 55px;
+    background-color: #FEFEFE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.photo1{
+    height: 42px;
+    width: 25%;
+    border-radius: 200px;
+    background-color: blue;
+    
+}
+.maphoto{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    width: 60%;
+}
+
+.menu1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    width: 98%; 
+}
+
+ul >a{
+    color: black;
+}
+
+.contain{
+    margin-top: 5%;
+}
+
+.test {
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    font-size: 38px;
+}
+.sous-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 2%;
+    width: 20%;
+    margin-left: 38%;  
+}
+
+header{
+    background-image: url("../Images/3.PNG");
+    height:100vh;
+    background-size: 100%;
+    width: 100%;
+
+}
+h1{
+    color: blue;
+
+}
+.getbutton{
+    margin-left: 45%;
+    max-width: 12%;
+    max-height: 25%;
+    margin-top: 1%;
+    background-color: rgba(42, 164, 235, 0.863);
+    border-radius: 5px;
+}
+.divphoto > img{
+    height: 82%;
+    width: 73%;
+    margin-left: 15%;
+    border: 15px solid #F2F2F2;
+}
+.btn{
+    font-size: 12px;
+    color: white;
+}
+.divinfo{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.infopersonnel{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.Personnelinfo{
+    margin-right: 5%;
+    margin-left: -6%;
+    
+    width: 100px;
+}
+.Personnelinfo>ul>li{
+    margin-left: -60px;
+    font-weight: bold;
+}
+
+.mesinfo>ul>li{
+    margin-left: -150px;
+    color: #888888;;
+}
+.deuxpoint{
+    height: 100%;
+    margin-left: 0;
+    
+}
+.deuxpoint>ul>li{
+    margin-left: -110px;
+    font-weight: bold;
+}
+
+.detailinfo{
+    margin-right: 14%;
+}
+.nom,.age,.ex,.paye,.add,.emai,.tele{
+    margin-top: 4%;
+    font-size: 15px;
+}
+.btn2{
+    margin-top: 13%;
+}
+.blue{
+    background-color: rgb(0, 102, 255);
+    width: 40%;
+    border-radius: 5px;
+}
+.rouge{
+    background-color: red;
+    border-radius: 5px;
+    width: 35%;
+}
+li{
+    background-color: white;
+    padding: 8px;
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+.para1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    height: 80%;
+    margin-bottom: -15px;
+    
+    
+}
+.divpara{
+    margin-top: 3%;
+    background-color: #F0F0F0;
+    height: 500px;
+    padding-top: 25px;
+}
+.divpara >h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.para{
+    background-color: #FFFFFF;
+    width: 20%;
+    margin-bottom: 50px;
+    margin-top: 2%;
+    height: 60%;
+    
+}
+.Images{
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+.para > p {
+    text-align: center;
+    font-size: 15px;
+}
+.elementaire{
+    background-color: #F2F2F2;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 4px 0px 5px 6px;
+}
+.college{
+    background-color: #F2F2F2;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 4px 0px 5px 6px;
+}
+.lycee{
+    background-color: #F2F2F2;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 4px 0px 5px 6px;
+}
+.universite{
+    background-color: #F2F2F2;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 4px 0px 5px 6px;
+}
+.dev,.admin ,.devreact , .devtech{
+    background-color: #F2F2F2;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 4px 0px 5px 6px;
+}
+
+.general{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experience,.education{
+    width: 40%;
+    
+}
+.photegen{
+    margin-right: 60%;
+    margin-top: 10%;
+    background-color: #00B4D9;
+    border-radius: 25px;
+    padding: 12px;
+    height: 25px;
+    color: white ;
+}
+.exper{
+    float: right;
+    margin-right: 63%;
+    margin-top: -7%;
+}
+.education{
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+.experience{
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.caporal{
+    background-color: #F2F2F2;
+    height: 710px;
+    padding-top: 3%;
+    
+}
+.caporalimg{
+    width: 25%;
+    height: 25%;
+}
+
+.photocaporal1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   margin-left: 1%;
+
+    
+}
+.photocaporal2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 25px;
+    
+}
+.divbtn{
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+.all{
+    background-color: white;
+    padding: 17px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.87);
+    border:1px white;
+    width: 10%;
+    
+}
+.design,.developper,.print{
+    background-color: #21CFF3;
+    width: 15%;
+    padding: 17px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+    border:1px white;
+}
+.work{
+    text-align: center;
+    font-size: 150%;
+}
+.colonel1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.colonel{
+    background-image: url("../Images/bg-1.jpg");
+    height: 350px;
+    opacity: 1;
+}
+.projetwork{
+    margin-left: 25px;
+}
+.projetwork>img,.projetclient>img,.projetdone>img,.projetreceived>img{
+    margin-left: 32%;
+    color: blue;
+    
+}
+.projetwork>p,.projetclient>p,.projetdone>p,.projetreceived>p{
+    text-align: center;
+    color: #FEFEFE;
+}
+.projetclient{
+    margin-right: 40px;
+}
+
+.projetclient,.projetwork,.projetdone,.projetreceived{
+    margin-top: 5%;
+}
+.formulaire{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+.googlemap{
+    height: 80%;
+    width: 90%;
+    margin-left: 4%;
+}
+.mapp{
+    height: 450px;
+    margin-top: -3%;
+}
+.formcontact1>a{
+    color: #FEFEFE;
+    padding: 12px;
+    background-color: #00B4D9;
+    border-radius: 20px;
+}
+.formcontact1{
+    margin-top: 55px;
+    margin-left: 12px;
+    
+}
+textarea{
+    height: 100px;
+    width: 96%;
+}
+.formcontact>h3{
+    margin-top: -70px;
+}
+.formcontact{
+    border: 4px solid whitesmoke;
+    margin-top:8% ;
+    width: 40%;
+    height: 55%;
+
+}
+.ContactMap{
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    box-shadow: 13px 13px 13px 13px #F2F2F2;
+    height: 900px;
+    background-color: #FFFFFF;
+    
+}
+
+form{
+    border: 2px solid whitesmoke;
+    margin-top:10% ;
+    width: 100%;
+    height: 63%;
+}
+input{
+    padding: 5px;
+}
+.sujet{
+    width: 96%;
+}
+.btn-send{
+    margin-top: -5%;
+    background-color: #21CFF3;
+    color: white;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn-send:hover{
+    background-color: #f75b97;
+}
+.foot{
+    background-color: black;
+    height: 250px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 38%;
+}
+.facebook1,.twitter1,.instagram1,.google1,.linkedin1{
+    margin-top: 22%;
+}
+.copyright>p{
+    color: #F2F2F2;
+    text-align: center;
+}
+
+
+/*.pp{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 15%;
+    background-color: #F0F0F0;
+}
+/*.twitter{
+    margin-left: 20%;
+}
+.facebook{
+    margin-right: 20%;
+}
+

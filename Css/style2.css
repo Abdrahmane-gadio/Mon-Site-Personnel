@@ -1,0 +1,205 @@
+
+.facebook1:hover{
+    background-color: rgb(100, 100, 197);
+}
+.linkedin1:hover{
+    background-color: rgba(60, 60, 192, 0.87);
+}
+.instagram1:hover,.google:hover{
+    background-color: rgb(243, 99, 99);
+}
+.twitter1:hover{
+    background-color: rgba(67, 160, 236, 0.87);
+}
+
+.div1{
+    background-color: green;
+    width: 3px;
+    height: 40px;
+}
+.anne,.ecole,.dev2,.dev3{
+    font-size: 14px;
+    color:#888888;
+    margin-top: 15px;
+}
+
+.dev1,.diplome{
+    color:#888888;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.deuxpoint>.nom{
+    font-weight: bold;
+}
+
+
+
+.getbutton:hover{
+    background-color: rgb(57, 164, 235);
+    animation-duration: 4000s;
+}
+.blue:hover{
+    background-color: rgb(72, 142, 233);
+}
+.rouge:hover{
+    background-color: rgba(243, 94, 56, 0.925);
+    animation-duration: 1000ms;
+}
+.para:hover{
+    box-shadow: 1px 1px 12px  #555;
+}
+.design:hover,.developper:hover,.print:hover{
+    background-color: rgba(65, 143, 216, 0.815);
+}
+.icons{
+    display: none;
+    margin-left: 40%;
+    margin-top: 25%;
+    
+}
+
+.imagecoporal{
+    margin-left: 14px;
+}
+.div-imagecoporal1{
+    width: 390px;
+    height: 215px;
+    background-image: url("../Images/img-1.jpg");
+    margin-right: 4%;
+}
+
+.div-imagecoporal2{
+    width: 390px;
+    height: 215px;
+    background-image: url("../Images/img-2.jpg");
+    margin-right: 4%;
+}
+
+.div-imagecoporal3{
+    width: 390px;
+    height: 215px;
+    background-image: url("../Images/img-3.jpg");
+    margin-right: 4%;
+}
+.div-imagecoporal4{
+    width: 390px;
+    height: 215px;
+    background-image: url("../Images/img-4.jpg");
+    margin-right: 4%;
+}
+
+.div-imagecoporal5{
+    width: 390px;
+    height: 215px;
+    background-image: url("../Images/img-5.jpg");
+    margin-right: 4%;
+}
+.div-imagecoporal6{
+    width: 390px;
+    height: 215px;
+    background-image: url("../Images/img-6.jpg");
+    margin-right: 4%;
+}
+.div-icons{
+    display: flex;
+}
+.a-icon1{
+    padding: 8px;
+    background-color: whitesmoke;
+    margin-left: 35%;
+    border-radius: 10px;
+    margin-top: 23%;
+}
+.a-icon2{
+    padding: 8px;
+    background-color: whitesmoke;
+    margin-left: 18px;
+    border-radius: 10px;
+    margin-top: 23%;
+}
+.div-imagecoporal1:hover{
+    opacity: 0.7;
+}
+.div-imagecoporal1:hover .icons {
+    display: block;
+    width: 390px;
+    height: 215px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(47, 148, 241, 0.938);
+    opacity: 0.8;
+}
+
+.div-imagecoporal2:hover{
+    opacity: 0.7;
+}
+.div-imagecoporal2:hover .icons{
+    display: block;
+    width: 390px;
+    height: 215px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(47, 148, 241, 0.938);
+    transition-duration: 1000ms;
+    opacity: 0.8;
+    
+}
+.div-imagecoporal3:hover{
+    opacity: 0.7;
+}
+.div-imagecoporal3:hover .icons{
+    display: block;
+    width: 390px;
+    height: 215px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(47, 148, 241, 0.938);
+    opacity: 0.8;
+    
+}
+.div-imagecoporal4:hover{
+    opacity: 0.7;
+}
+.div-imagecoporal4:hover .icons{
+    display: block;
+    width: 390px;
+    height: 215px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(47, 148, 241, 0.938);
+    opacity: 0.8;
+    
+}
+
+.div-imagecoporal5:hover{
+    opacity: 0.7;
+}
+.div-imagecoporal5:hover .icons{
+    display: block;
+    width: 390px;
+    height: 215px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: rgba(47, 148, 241, 0.938);
+    opacity: 0.8;
+}
+.div-imagecoporal6:hover{
+    opacity: 0.7;
+}
+.div-imagecoporal6:hover .icons{
+    display: block;
+    width: 390px;
+    height: 215px;
+    margin-top: 0px;
+    margin-left: -0px;
+    background-color: rgba(47, 148, 241, 0.938);
+    opacity: 0.8;
+    
+}
+
+
+
+
+
+
+
